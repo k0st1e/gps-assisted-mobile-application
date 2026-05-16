@@ -10,7 +10,7 @@ The aim of this mobile application is to take a user's location, some text that 
 
 ### To-Do
 
-* Security needs to be implemented. Sessions for the web and tokens for mobiles.
+* Security needs to be implemented (JWT).
 * Some small leaps to achieve route persistence so the users can see their routes and others.
 * Gamify the experience to make it more fun. For example, give a "reward" if a user completes 5 routes.
 * Add photograph functionality to complement a route(?)
@@ -19,5 +19,5 @@ The aim of this mobile application is to take a user's location, some text that 
 
 * Third-party libraries are needed and can be found in the gradle files. They are commented appropriately.
 * The maps are implemented are with the help of Mapbox and the token is omitted.
-* The back-end that the application communicates is omitted as the application is still in it's early stages.
+* The back-end URL that the application communicates is also omitted as the application is still in it's early stages.
 * See the [springboot back-end](https://github.com/k0st1e/springboot-app-for-mobile-application) repository.

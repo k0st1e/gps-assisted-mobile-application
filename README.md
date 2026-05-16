@@ -18,6 +18,6 @@ The aim of this mobile application is to take a user's location, some text that 
 ### Misc
 
 * Third-party libraries are needed and can be found in the gradle files. They are commented appropriately.
-* The maps are implemented are with the help of Mapbox and the token is omitted.
+* The maps are implemented with the help of Mapbox and the token is omitted.
 * The back-end URL that the application communicates is also omitted as the application is still in it's early stages.
 * See the [springboot back-end](https://github.com/k0st1e/springboot-app-for-mobile-application) repository.

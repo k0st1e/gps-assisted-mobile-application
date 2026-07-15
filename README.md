@@ -1,23 +1,41 @@
-## GPS Assisted Mobile Application
+## BeeDora - A GPS-Assisted Mobile Application made with Jetpack for self-guided tours.
 
-The aim of this mobile application is to take a user's location, some text that is entered via text fields and create a route from visited places. See below for current features and future work.
+The aim of this mobile application is to take a user's location via GPS signals, use data via text fields and create a route from visited places. 
 
-### Current Features
+### Showcase
 
-* Log-in & Registration is present.
-* GPS geolocation works and pins can be added.
-* Pages for self routes, other users routes, and trophies page is there to visit from the nav-bar.
 
-### To-Do
+#### Initial Screens
 
-* Security needs to be implemented (JWT).
-* Some small leaps to achieve route persistence so the users can see their routes and others.
-* Gamify the experience to make it more fun. For example, give a "reward" if a user completes 5 routes.
-* Add photograph functionality to complement a route(?)
+| Landing | Register | Log-in |
+|-----------|--------------|------------------|
+| <img src="/screens/landing-1.png" height="320"> | <img src="/screens/landing-2.png" height="320"> | <img src="/screens/landing-3.png" height="320"> |
 
-### Misc
+#### Creating a Route
 
+| Adding 1st Pin | Adding 2nd Pin | Adding 3rd Pin |
+|-----------|--------------|------------------|
+| ![pin1](/screens/adding-pin-1.png) | ![pin2](/screens/adding-pin-2.png) | ![pin3](/screens/adding-pin-3.png) |
+
+### Roadmap
+
+| Feature | Status |
+|----------|-------|
+| Log-in / Registration | Completed |
+| GPS Geolocation | Completed |
+| Adding Pins on Map | Completed |
+| Additional Screens | Completed |
+| Initial Database | Completed |
+| Deployed with Heroku | Completed |
+| JWTs | Not Completed |
+| Route Persistence | Not Completed |
+| Gamification and Rewards | Not Completed |
+| Photos for Routes Visisted | Not Completed |
+
+
+### Read me!
+
+* The maps are implemented with the help of the Mapbox library.
 * Third-party libraries are needed and can be found in the gradle files. They are commented appropriately.
-* The maps are implemented with the help of Mapbox and the token is omitted.
-* The back-end URL that the application communicates is also omitted as the application is still in it's early stages.
-* See the [springboot back-end](https://github.com/k0st1e/springboot-app-for-mobile-application) repository.
+* The Spring back-end URL that the application communicates with is omitted as the application is still in development.
+* Visit the [springboot back-end](https://github.com/k0st1e/springboot-app-for-mobile-application) repository for more.
